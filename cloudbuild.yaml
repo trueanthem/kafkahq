@@ -1,0 +1,12 @@
+# See <https://cloud.google.com/cloud-build/docs/build-config> for a reference.
+
+steps:
+- name: gcr.io/cloud-builders/docker
+  args:
+  - build
+  - -t
+  - us.gcr.io/$PROJECT_ID/kafkahq
+  - .
+
+images:
+- us.gcr.io/$PROJECT_ID/kafkahq

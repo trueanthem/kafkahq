@@ -1,0 +1,18 @@
+# git repo and files
+**/.git*
+.gitignore
+
+# markdown files
+**/*.md
+
+# cloudbuild
+cloudbuild.yaml
+.gcloudignore
+
+# local dev
+node_modules
+.gradle
+.idea
+build/
+out/
+*.hprof
